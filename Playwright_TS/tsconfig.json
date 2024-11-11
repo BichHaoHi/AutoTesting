@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "skipLibCheck": true,                               
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "target": "ESNext",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "outDir": "dist"
+    },
+    "include": ["tests/**/*.ts", "node_modules/@playwright/test"]
+}
+
